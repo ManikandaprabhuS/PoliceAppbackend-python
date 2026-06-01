@@ -25,6 +25,15 @@ const adminSchema = new mongoose.Schema(
             type: String,
             default: "admin",
         },
+        resetOtp: {
+            type: String,
+            default: null,
+        },
+
+        resetOtpExpiry: {
+            type: Date,
+            default: null,
+        },
     },
     {
         timestamps: true,
