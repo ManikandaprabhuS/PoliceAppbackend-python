@@ -1,4 +1,4 @@
-const SOS = require("../models/SOS");
+const SOS = require("../models/sos");
 
 
 // Create SOS
